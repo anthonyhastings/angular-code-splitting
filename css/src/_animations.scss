@@ -1,0 +1,62 @@
+@keyframes rotateFall {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    20% {
+        transform: rotateZ(10deg);
+        animation-timing-function: ease-out;
+    }
+
+    40% {
+        transform: rotateZ(17deg);
+    }
+
+    60% {
+        transform: rotateZ(16deg);
+    }
+
+    100% {
+        transform: translateY(100%) rotateZ(17deg);
+    }
+}
+
+@keyframes slideOutLeft {
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes rotateOutNewspaper {
+    to {
+        opacity: 0;
+        transform: translateZ(-3000px) rotateZ(360deg);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        opacity: 0.3;
+        transform: scale(0.8);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform:translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}

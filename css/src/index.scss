@@ -1,0 +1,79 @@
+@import 'animations';
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: percentage(10 / 16);
+}
+
+.page {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding-top: 20rem;
+    text-align: center;
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    a {
+        display: inline-block;
+        font-size: 3rem;
+        margin-top: 5rem;
+    }
+
+    &.ng-enter {
+        z-index: 8888;
+    }
+
+    &.ng-leave {
+        z-index: 9999;
+    }
+}
+
+.page--landing {
+    background: #00D0BC;
+    color: #00907C;
+
+    &.ng-enter {
+        animation: scaleUp 500ms both ease-in;
+    }
+
+    &.ng-leave {
+        transform-origin: 0% 0%;
+        animation: rotateFall 1000ms both ease-in;
+    }
+}
+
+.page--about {
+    background: #E59400;
+    color: #A55400;
+
+    &.ng-enter {
+        animation: slideInRight 500ms both ease-in;
+    }
+
+    &.ng-leave {
+        animation: slideOutLeft 500ms both ease-in;
+    }
+}
+
+.page--contact {
+    background: #FFA6BB;
+    color: #9E0000;
+
+    &.ng-leave {
+        transform-origin: 50% 50%;
+        animation: rotateOutNewspaper 500ms both ease-in;
+    }
+
+    &.ng-enter {
+        animation: slideInUp 500ms both ease-in;
+    }
+}
