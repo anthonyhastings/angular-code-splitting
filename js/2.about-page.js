@@ -3,7 +3,7 @@ webpackJsonp([2],{
 /***/ 12:
 /***/ function(module, exports) {
 
-	module.exports = "<h1>AngularJS: Code Splitting + UI Router</h1>\n<h2>About</h2>\n\n<a href=\"/\" class=\"btn btn-primary btn-lg\">Landing</a>\n<a href=\"#/contact\" class=\"btn btn-danger btn-lg\">Contact</a>";
+	module.exports = "<h1>AngularJS: Code Splitting + UI Router</h1>\n<h2>About</h2>\n\n<a href=\"#/landing\" class=\"btn btn-primary btn-lg\">Landing</a>\n<a href=\"#/contact\" class=\"btn btn-danger btn-lg\">Contact</a>";
 
 /***/ },
 
