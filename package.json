@@ -1,17 +1,14 @@
 {
-  "name": "rehab-fe-skeleton",
-  "description": "A collection of tools, file structures and settings for front-end development.",
-  "version": "2.4.0",
+  "name": "angular-code-splitting",
+  "description": "An example application made up of smaller 'page applications' that are split into webpack chunks and loaded on demand.",
+  "version": "1.0.0",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:rehabstudio/fe-skeleton.git"
+    "url": "git@github.com:antwan1986/angular-code-splitting.git"
   },
-  "authors": [
-    "Anthony Hastings <anthony@rehabstudio.com>",
-    "Neil McCallion <neil@rehabstudio.com>"
-  ],
+  "author": "Anthony Hastings <ar.hastings@gmail.com>",
   "scripts": {
     "gulp": "gulp",
     "lint": "gulp lint",
